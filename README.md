@@ -1,7 +1,8 @@
 # Text-Summarizer
-end-to-end NLP project
 
-##Workflows
+End-to-end NLP project.
+
+## Workflows
 
 1. Update config.yaml
 2. Update params.yaml
@@ -11,3 +12,24 @@ end-to-end NLP project
 6. Update the pipeline
 7. Update the main.py
 8. Update the app.py
+
+## How to Run
+
+### STEP 01 - Create a conda environment after opening the repository
+
+```bash
+conda create -n summary python=3.8 -y
+conda activate summary
+```
+
+### STEP 02 - Install the requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### STEP 03 - Run the application
+
+```bash
+python app.py
+```
